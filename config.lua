@@ -892,4 +892,54 @@ WeaponAttachments = {
             item = 'marksmanrifle_luxuryfinish',
         },
     },
+    ['WEAPON_AR15'] = {
+        ['defaultclip'] = {
+            component = 'COMPONENT_AR_AR15_CLIP_01',
+            item = 'ar15_mag1',
+            type = 'clip',
+        },
+        ['extendedclip'] = {
+            component = 'COMPONENT_AR_AR15_CLIP_02',
+            item = 'ar15_mag2',
+            type = 'clip',
+        },
+        ['flashlight'] = {
+            component = 'COMPONENT_AR_AR15_FLSH',
+            item = 'rifle_flashlight',
+        },
+        ['scope'] = {
+            component = 'COMPONENT_AR_AR15_SCOPE_02',
+            item = 'sight_eotech',
+            type = 'scope',
+        },
+        ['scope2'] = {
+            component = 'COMPONENT_AR_AR15_SCOPE_01',
+            item = 'sight_aimpoint',
+            type = 'scope',
+        },
+        ['scope3'] = {
+            component = 'COMPONENT_AR_AR15_SCOPE_03',
+            item = 'sight_x2',
+            type = 'scope',
+        },
+        ['scope4'] = {
+            component = 'COMPONENT_AR_AR15_SCOPE_04',
+            item = 'sight_x12',
+            type = 'scope',
+        },
+        ['suppressor'] = {
+            component = 'COMPONENT_AR_AR15_SUPP',
+            item = 'rifle_suppressor',
+        },
+        ['grip'] = {
+            component = 'COMPONENT_AR_AR15_AFGRIP_02',
+            item = 'mvg',
+            type = 'grip'
+        },
+        ['grip2'] = {
+            component = 'COMPONENT_AR_AR15_AFGRIP_01',
+            item = 'afg_flashlight',
+            type = 'grip'
+        },
+    },
 }

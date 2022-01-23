@@ -767,3 +767,34 @@ end)
 QBCore.Functions.CreateUseableItem('snspistol_luxuryfinish', function(source, item)
     TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'luxuryfinish')
 end)
+
+QBCore.Functions.CreateUseableItem('ar15_mag1', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'defaultclip')
+end)
+
+QBCore.Functions.CreateUseableItem('ar15_mag2', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'extendedclip')
+end)
+
+QBCore.Functions.CreateUseableItem('sight_eotech', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope')
+end)
+
+QBCore.Functions.CreateUseableItem('sight_aimpoint', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope2')
+end)
+
+QBCore.Functions.CreateUseableItem('sight_x2', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope3')
+end)
+
+QBCore.Functions.CreateUseableItem('sight_x12', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope4')
+end)
+
+QBCore.Functions.CreateUseableItem('mvg', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'grip')
+end)
+
+QBCore.Functions.CreateUseableItem('afg_flashlight', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'grip2')
