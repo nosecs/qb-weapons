@@ -798,3 +798,4 @@ end)
 
 QBCore.Functions.CreateUseableItem('afg_flashlight', function(source, item)
     TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'grip2')
+end)
